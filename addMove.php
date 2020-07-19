@@ -13,4 +13,4 @@ $db = new Banco();
 
 print_r($db);
 
-$db->addMoviment($type, $date, $value, $description. $category);
+$db->addMoviment($type, $date, $value, $description, $category);
