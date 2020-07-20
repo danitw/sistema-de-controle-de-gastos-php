@@ -11,4 +11,6 @@ $date = date('c');
 
 $db = new Banco();
 
-$db->addMoviment($type, $date, $value, $description, $category);
+$db->addMovement($type, $date, $value, $description, $category);
+
+header('Location: index.php');
